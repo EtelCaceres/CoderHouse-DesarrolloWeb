@@ -1,0 +1,88 @@
+h1{ text-align: center;}
+
+hr{ 
+    color: burlywood;
+    }
+img {
+    height: 300px; /* Ajusta la altura al valor que necesites */
+    width: auto; /* Mantiene la proporción */
+    }          
+
+/*cambio de color de titulos*/
+
+/*Estilo de titulo h1 index*/
+#indexTitle{
+    color: crimson;
+    text-decoration: underline;
+}
+
+/*Estilo de titulo h1 catalogo*/
+#catalogoTitle{
+    color: brown;
+    text-decoration: underline;}
+
+/*Estilo de titulo h1 contacto*/
+#contactoTitle{
+    color: darkmagenta;
+    text-decoration: underline;}
+
+/*Estilo de titulo h1 galeria*/
+#galeriaTitle{
+    color: deeppink;
+    text-decoration: underline;
+}
+
+/*Estilo de titulo h1 sobre nosotros*/
+#nosotrosTitle{
+    color: darkorchid;
+    text-decoration: underline;
+}
+
+/*Estilo para el contenedor de titulos h1*/
+.title-container{
+    background-color: #aca19c;
+    padding: 35px;
+}
+
+/*Estilo color de fondo para los body*/
+.body-background-color{
+    background-color: #f1f0ca;
+}
+
+/*cambio de color de links de menu*/
+.link-inicio{
+    color: green;
+}
+
+.link-Contacto{
+    color: red;
+}
+
+.link-Galeria{
+    color: black;
+}
+
+.link-SobreNosotros{
+    color: yellowgreen;
+}
+
+.link-catalogo{
+    color: blueviolet;
+}
+
+/*eliminacion de subrayado de menu */
+nav a{
+    text-decoration: none;
+}
+.imagen-sobrenosotros{
+    display: flex;
+}
+
+.imgcreada img{ 
+    width: 50;
+    border: 1px solid brown;
+
+}
+.galery{
+    gap: 10px;
+}
