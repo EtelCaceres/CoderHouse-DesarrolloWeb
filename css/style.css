@@ -10,6 +10,12 @@ img {
 
 /*cambio de color de titulos*/
 
+/*Estilo imagen logo navbar*/
+.img-brand-navbar{
+    height: 90px;
+    width: 90px;
+}
+
 /*Estilo de titulo h1 index*/
 #indexTitle{
     color: crimson;
