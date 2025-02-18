@@ -1,85 +1,63 @@
 h1{ text-align: center;}
 
-hr{ 
-    color: burlywood;
-    }
+.fondo-color{
+    background:rgb(250, 186, 126);
+}
+
 img {
     height: 300px; /* Ajusta la altura al valor que necesites */
     width: auto; /* Mantiene la proporción */
     }          
 
-/*cambio de color de titulos*/
 
-/*Estilo imagen logo navbar*/
-.img-brand-navbar{
-    height: 90px;
-    width: 90px;
+/* Navbar con un solo color de fondo */
+.custom-navbar {
+    background-color: #8B5E3C; /* Marrón (puedes cambiarlo) */
+    padding: 5px 10px; /* Reduce el alto */
 }
 
-/*Estilo de titulo h1 index*/
-#indexTitle{
-    color: crimson;
+/* Modificar solo el tamaño del logo */
+.custom-logo {
+    width: 80px; /* Cambia este valor para el tamaño del logo */
+    height: auto; /* Mantiene la proporción del logo */
+}
+
+/* Estilo del texto del logo */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Menú alineado a la derecha */
+.navbar-nav .nav-link {
+    color:black !important;
+    font-weight: bold;
     text-decoration: underline;
+    margin-right: 15px; 
 }
 
-/*Estilo de titulo h1 catalogo*/
-#catalogoTitle{
-    color: brown;
-    text-decoration: underline;}
-
-/*Estilo de titulo h1 contacto*/
-#contactoTitle{
-    color: darkmagenta;
-    text-decoration: underline;}
-
-/*Estilo de titulo h1 galeria*/
-#galeriaTitle{
-    color: deeppink;
-    text-decoration: underline;
+/* Para que el menú no se vea pegado en móviles */
+.navbar-toggler {
+    border:none;
 }
 
-/*Estilo de titulo h1 sobre nosotros*/
-#nosotrosTitle{
-    color: darkorchid;
-    text-decoration: underline;
-}
+
 
 /*Estilo para el contenedor de titulos h1*/
 .title-container{
     background-color: #aca19c;
-    padding: 35px;
+    padding: 15px;
 }
+
 
 /*Estilo color de fondo para los body*/
 .body-background-color{
     background-color: #f1f0ca;
 }
 
-/*cambio de color de links de menu*/
-.link-inicio{
-    color: green;
-}
-
-.link-Contacto{
-    color: red;
-}
-
-.link-Galeria{
-    color: black;
-}
-
-.link-SobreNosotros{
-    color: yellowgreen;
-}
-
-.link-catalogo{
-    color: blueviolet;
-}
-
-/*eliminacion de subrayado de menu */
-nav a{
-    text-decoration: none;
-}
 .imagen-sobrenosotros{
     display: flex;
 }
@@ -89,6 +67,26 @@ nav a{
     border: 1px solid brown;
 
 }
+
+.imagen-manos img{
+    width: 50;
+    border: 1px solid brown;
+}
 .galery{
     gap: 10px;
+
+}
+/* bordes container de la barra de  navegacion*/
+.container-fluid{
+    background-color: #aca19c !important;
+    padding: 15px;
+    
+}
+.navbar {
+    background-color: #aca19c !important;
+} 
+/* Estilo para los bordes de la navbar */
+.custom-border { 
+    border-top: 4px solid #8B5A2B; 
+    border-bottom: 4px solid #CD853F; 
 }
