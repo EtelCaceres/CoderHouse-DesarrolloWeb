@@ -9,13 +9,6 @@ img {
     width: auto; /* Mantiene la proporción */
     }          
 
-
-/* Navbar con un solo color de fondo */
-.custom-navbar {
-    background-color: #8B5E3C; /* Marrón (puedes cambiarlo) */
-    padding: 5px 10px; /* Reduce el alto */
-}
-
 /* Modificar solo el tamaño del logo */
 .custom-logo {
     width: 80px; /* Cambia este valor para el tamaño del logo */
@@ -90,3 +83,10 @@ img {
     border-top: 4px solid #8B5A2B; 
     border-bottom: 4px solid #CD853F; 
 }
+
+.imgmanos{font-size: 24px; /* Cambia el tamaño del texto */
+    font-family: 'Arial', sans-serif; /* Cambia el tipo de letra */
+    color:black; /* Cambia el color del texto */
+    font-weight: bold; /* Hace que el texto sea más grueso */
+    text-align: center; /* Centra el texto */}
+
