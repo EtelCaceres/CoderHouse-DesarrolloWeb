@@ -51,24 +51,7 @@ img {
     background-color: #f1f0ca;
 }
 
-.imagen-sobrenosotros{
-    display: flex;
-}
 
-.imgcreada img{ 
-    width: 50;
-    border: 1px solid brown;
-
-}
-
-.imagen-manos img{
-    width: 50;
-    border: 1px solid brown;
-}
-.galery{
-    gap: 10px;
-
-}
 /* bordes container de la barra de  navegacion*/
 .container-fluid{
     background-color: #aca19c !important;
@@ -84,9 +67,19 @@ img {
     border-bottom: 4px solid #CD853F; 
 }
 
-.imgmanos{font-size: 24px; /* Cambia el tamaño del texto */
-    font-family: 'Arial', sans-serif; /* Cambia el tipo de letra */
-    color:black; /* Cambia el color del texto */
-    font-weight: bold; /* Hace que el texto sea más grueso */
-    text-align: center; /* Centra el texto */}
 
+    .contenedor-imagenes {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 30px; /* Espacio entre la barra de navegación y las imágenes */
+
+    }
+    
+    .imagen img {
+        width: 400px;
+        height: auto;
+        border-radius: 30px;
+    }
+    
+    
