@@ -7,7 +7,7 @@ h1{ text-align: center;}
 img {
     height: 300px; /* Ajusta la altura al valor que necesites */
     width: auto; /* Mantiene la proporción */
-    }          
+    } 
 
 /* Modificar solo el tamaño del logo */
 .custom-logo {
@@ -25,12 +25,12 @@ img {
 }
 
 /* Menú alineado a la derecha */
-.navbar-nav .nav-link {
+/* .navbar-nav .nav-link {
     color:black !important;
     font-weight: bold;
     text-decoration: underline;
     margin-right: 15px; 
-}
+} */
 
 /* Para que el menú no se vea pegado en móviles */
 .navbar-toggler {
@@ -52,16 +52,6 @@ img {
 }
 
 
-/* bordes container de la barra de  navegacion*/
-.container-fluid{
-    background-color: #aca19c !important;
-    padding: 15px;
-    
-}
-.navbar {
-    background-color: #aca19c !important;
-} 
-/* Estilo para los bordes de la navbar */
 .custom-border { 
     border-top: 4px solid #8B5A2B; 
     border-bottom: 4px solid #CD853F; 
@@ -76,10 +66,33 @@ img {
 
     }
     
-    .imagen img {
-        width: 400px;
-        height: auto;
-        border-radius: 30px;
+    .navbar-nav .nav-link {
+        color: black;
+        font-weight: bold;
+        text-decoration: underline;
+        margin-right: 15px; 
     }
     
-    
+    /* Asegurar que no haya reglas más específicas que lo sobreescriban */
+    .navbar-nav .nav-link:hover,
+    .navbar-nav .nav-link:focus {
+        color: black;
+    }
+        
+    .container-fluid {
+    background-color: #aca19c;
+    padding: 15px;
+}
+
+.navbar {
+    background-color: #aca19c;
+}
+
+/* Asegurar que no haya reglas más específicas que lo sobreescriban */
+body .container-fluid {
+    background-color: #aca19c;
+}
+
+body .navbar {
+    background-color: #aca19c;
+}
