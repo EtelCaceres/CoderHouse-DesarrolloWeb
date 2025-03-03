@@ -10,10 +10,15 @@ $logo-size: 80px;
 h1 {
     text-align: center;
 }
-
-.body-background-color {
-    background-color: $primary-bg;
-}
+// se define el mixin
+@mixin body-background($color) {
+    background-color: $color;
+  }
+  
+  // se  Usa el mixin
+  .body-background-color {
+    @include body-background($primary-bg);
+  }
 
 img {
     height: 300px; // Ajusta la altura al valor que necesites
@@ -56,7 +61,7 @@ img {
             font-weight: bold;
             text-decoration: underline;
             margin-right: 15px;
-            // Efecto hover y focus en los enlaces
+     // Efecto hover y focus en los enlaces
             &:hover,
             &:focus { 
                 color: $text-color;
