@@ -1,0 +1,87 @@
+// Definición de variables
+$primary-bg: #f1f0ca;
+$secondary-bg: #aca19c;
+$accent-color: rgb(250, 186, 126);
+$border-top-color: #8B5A2B;
+$border-bottom-color: #CD853F;
+$text-color: black;
+$logo-size: 80px;
+
+h1 {
+    text-align: center;
+}
+
+.body-background-color {
+    background-color: $primary-bg;
+}
+
+img {
+    height: 300px; // Ajusta la altura al valor que necesites
+    width: auto;  // Mantiene la proporción
+}
+
+// Tamaño del logo
+.custom-logo {
+    width: $logo-size;  
+    height: auto; 
+}
+
+// Estilos de la barra de navegación con anidamiento
+.navbar {
+    background-color: $secondary-bg;
+  
+    
+    .container-fluid {
+        background-color: $secondary-bg;
+        padding: 15px;
+    }
+
+
+    // Estilos del logo y texto de la navbar
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+        color: $text-color;
+        font-size: 20px;
+        text-decoration: none;
+    }
+     // Estilo del botón de la navbar en móviles
+    .navbar-toggler {
+        border: none;
+    }
+    // Estilos del menú de navegación
+    .navbar-nav { 
+        .nav-link {
+            color: $text-color;
+            font-weight: bold;
+            text-decoration: underline;
+            margin-right: 15px;
+            // Efecto hover y focus en los enlaces
+            &:hover,
+            &:focus { 
+                color: $text-color;
+            }
+        }
+    }
+}
+
+
+// Contenedor del título principal
+.title-container {
+    background-color: $secondary-bg;
+    padding: 15px;
+}
+
+// Estilos de la galería de imágenes
+.contenedor-imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px; // Espacio entre la barra de navegación y las imágenes
+}
+
+// Bordes personalizados
+.custom-border {
+    border-top: 4px solid $border-top-color;
+    border-bottom: 4px solid $border-bottom-color;
+}
