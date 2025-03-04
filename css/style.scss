@@ -27,6 +27,13 @@ img {
     width: auto;  // Mantiene la proporción
 }
 
+.standar-img{
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
 // Tamaño del logo
 .custom-logo {
     width: $logo-size;  
