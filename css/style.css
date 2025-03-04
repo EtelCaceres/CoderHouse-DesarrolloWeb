@@ -1,3 +1,27 @@
+.brand-animation {
+  animation-name: brandAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+}
+
+@keyframes brandAnimation {
+  0% {
+    color: white;
+  }
+  25% {
+    color: black;
+  }
+  50% {
+    color: green;
+  }
+  75% {
+    color: red;
+  }
+  100% {
+    color: white;
+  }
+}
 h1 {
   text-align: center;
 }
@@ -58,6 +82,18 @@ img {
 .custom-border {
   border-top: 4px solid #8B5A2B;
   border-bottom: 4px solid #CD853F;
+}
+
+input:focus,
+textarea:focus {
+  border: 5px dotted rgb(250, 186, 126);
+  background-color: #f1f0ca;
+  outline: none;
+}
+
+input,
+textarea {
+  transition: border-color 0.3s, background-color 0.3s;
 }
 
 /*# sourceMappingURL=style.css.map */
