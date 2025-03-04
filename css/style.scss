@@ -90,3 +90,16 @@ img {
     border-top: 4px solid $border-top-color;
     border-bottom: 4px solid $border-bottom-color;
 }
+// Estilos para los campos de entrada cuando están en foco
+input:focus,
+textarea:focus {
+    border: 5px dotted $accent-color;  // Borde punteado de 5px con el color de acento
+    background-color: $primary-bg;     // Color de fondo cuando está en foco
+    outline: none;                     // Elimina el contorno predeterminado del navegador
+}
+
+// También puedes agregar algunos estilos de transición para que se vea más suave
+input,
+textarea {
+    transition: border-color 0.3s, background-color 0.3s;  // Transición suave para cambios de color
+}
