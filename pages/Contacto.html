@@ -25,7 +25,7 @@
                     <!-- Logo a la izquierda -->
                     <a class="navbar-brand" href="../index.html">
                         <img src="../img/logo.png" alt="Logo" class="custom-logo">
-                        <span class="fw-bold">Macetas Artesanales</span>
+                        <span class="fw-bold brand-animation">Macetas Artesanales</span>
                     </a>
             
                     <!-- Botón para móviles -->
@@ -54,28 +54,38 @@
             <h2>Formulario de consulta</h2>
             <p>Te respondemos a la brevedad .</p>
 
-            <form action="https://formspree.io/f/mzzzkvdz" method="">
+            <form action="https://formspree.io/f/mzzzkvdz" method="POST">
                 <label for="Apellido">Apellido</label>
-                <input type="text" name="Apellido" id="Apellido"> <br> <br>
-                <label for="">Nombre</label>
-                <input type="text" name="Nombre" id="Nombre">       <br><br>
-                <label for="">Direccion</label>
-                <input type="text" name="Direccion" id=""><br><br>
-                <label for="genero">genero</label><br><br>
-                <input type="radio" name="Hombre" id="">
-                <label for="">Hombre</label><br><br>
-                <input type="radio" name="Mujer" id="">
-                <label for="">Mujer</label><br><br>
-                <input type="radio" name="No Binario">
-                <label for="">No Binario</label><br><br>
-                <label for="password">contraseña</label><b></b>
-                <input type="password" name="password" id="password"><br> <br>
-                <label for="mensaje">mensaje</label><br><br>
-                <textarea name="" id=""></textarea><br> <br>
-                <label for="correo">email</label>
-                <input type="email" name="" id=""><br><br>
+                <input type="text" name="Apellido" id="Apellido" class="boton"> <br> <br>
+            
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="Nombre" id="Nombre" class="boton"> <br><br>
+            
+                <label for="Direccion">Dirección</label>
+                <input type="text" name="Direccion" id="Direccion" class="boton"><br><br>
+            
+                <label for="genero">Género</label><br><br>
+                <input type="radio" name="Hombre" id="Hombre">
+                <label for="Hombre">Hombre</label><br><br>
+            
+                <input type="radio" name="Mujer" id="Mujer">
+                <label for="Mujer">Mujer</label><br><br>
+            
+                <input type="radio" name="NoBinario" id="NoBinario">
+                <label for="NoBinario">No Binario</label><br><br>
+            
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" id="password" class="boton"><br><br>
+            
+                <label for="mensaje">Mensaje</label><br><br>
+                <textarea name="mensaje" id="mensaje" class="boton"></textarea><br><br>
+            
+                <label for="correo">Email</label>
+                <input type="email" name="correo" id="correo" class="boton"><br><br>
+            
                 <input type="submit" value="Enviar">
             </form>
+            
         </section>
         <article>
             <h2></h2>

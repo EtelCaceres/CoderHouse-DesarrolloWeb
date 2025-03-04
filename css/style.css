@@ -1,85 +1,106 @@
-h1{ text-align: center;}
+.brand-animation {
+  animation-name: brandAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+}
 
-.fondo-color{
-    background:rgb(250, 186, 126);
+@keyframes brandAnimation {
+  0% {
+    color: white;
+  }
+  25% {
+    color: black;
+  }
+  50% {
+    color: green;
+  }
+  75% {
+    color: red;
+  }
+  100% {
+    color: white;
+  }
+}
+h1 {
+  text-align: center;
+}
+
+.body-background-color {
+  background-color: #f1f0ca;
 }
 
 img {
-    height: 300px; /* Ajusta la altura al valor que necesites */
-    width: auto; /* Mantiene la proporción */
-    }          
+  height: 300px;
+  width: auto;
+}
 
-/* Modificar solo el tamaño del logo */
+.standar-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 .custom-logo {
-    width: 80px; /* Cambia este valor para el tamaño del logo */
-    height: auto; /* Mantiene la proporción del logo */
+  width: 80px;
+  height: auto;
 }
 
-/* Estilo del texto del logo */
-.navbar-brand {
-    display: flex;
-    align-items: center;
-    color:black;
-    font-size: 20px;
-    text-decoration: none;
-}
-
-/* Menú alineado a la derecha */
-.navbar-nav .nav-link {
-    color:black !important;
-    font-weight: bold;
-    text-decoration: underline;
-    margin-right: 15px; 
-}
-
-/* Para que el menú no se vea pegado en móviles */
-.navbar-toggler {
-    border:none;
-}
-
-
-
-/*Estilo para el contenedor de titulos h1*/
-.title-container{
-    background-color: #aca19c;
-    padding: 15px;
-}
-
-
-/*Estilo color de fondo para los body*/
-.body-background-color{
-    background-color: #f1f0ca;
-}
-
-
-/* bordes container de la barra de  navegacion*/
-.container-fluid{
-    background-color: #aca19c !important;
-    padding: 15px;
-    
-}
 .navbar {
-    background-color: #aca19c !important;
-} 
-/* Estilo para los bordes de la navbar */
-.custom-border { 
-    border-top: 4px solid #8B5A2B; 
-    border-bottom: 4px solid #CD853F; 
+  background-color: #aca19c;
+}
+.navbar .container-fluid {
+  background-color: #aca19c;
+  padding: 15px;
+}
+.navbar .navbar-brand {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+.navbar .navbar-toggler {
+  border: none;
+}
+.navbar .navbar-nav .nav-link {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-right: 15px;
+}
+.navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .nav-link:focus {
+  color: black;
 }
 
+.title-container {
+  background-color: #aca19c;
+  padding: 15px;
+}
 
-    .contenedor-imagenes {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        margin-top: 30px; /* Espacio entre la barra de navegación y las imágenes */
+.contenedor-imagenes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
 
-    }
-    
-    .imagen img {
-        width: 400px;
-        height: auto;
-        border-radius: 30px;
-    }
-    
-    
+.custom-border {
+  border-top: 4px solid #8B5A2B;
+  border-bottom: 4px solid #CD853F;
+}
+
+input:focus,
+textarea:focus {
+  border: 5px dotted rgb(250, 186, 126);
+  background-color: #f1f0ca;
+  outline: none;
+}
+
+input,
+textarea {
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+/*# sourceMappingURL=style.css.map */
