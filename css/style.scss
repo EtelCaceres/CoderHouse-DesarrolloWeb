@@ -8,10 +8,12 @@ $border-top-color: #8B5A2B;
 $border-bottom-color: #CD853F;
 $text-color: black;
 $logo-size: 80px;
+$form-color-button:red;
 
 h1 {
     text-align: center;
 }
+
 // se define el mixin
 @mixin body-background($color) {
     background-color: $color;
@@ -114,4 +116,13 @@ textarea {
 }
 
 
+// Estilo del botón personalizado
+.btn-rojo {
+    background-color: $form-color-button;
+    border-color: $form-color-button;
 
+    &:hover {
+        background-color: darken($form-color-button, 15%); // Haciendo el color más oscuro al pasar el ratón
+        border-color: darken($form-color-button, 15%);
+    }
+}

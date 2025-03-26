@@ -103,4 +103,13 @@ textarea {
   transition: border-color 0.3s, background-color 0.3s;
 }
 
+.btn-rojo {
+  background-color: red;
+  border-color: red;
+}
+.btn-rojo:hover {
+  background-color: rgb(178.5, 0, 0);
+  border-color: rgb(178.5, 0, 0);
+}
+
 /*# sourceMappingURL=style.css.map */
