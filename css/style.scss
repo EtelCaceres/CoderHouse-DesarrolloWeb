@@ -17,12 +17,12 @@ h1 {
 // se define el mixin
 @mixin body-background($color) {
     background-color: $color;
-  }
+}
   
   // se  Usa el mixin
-  .body-background-color {
+.body-background-color {
     @include body-background($primary-bg);
-  }
+}
 
 img {
     height: 300px; // Ajusta la altura al valor que necesites
@@ -34,6 +34,13 @@ img {
     height: auto; 
     display: block; 
     margin: 0 auto; 
+}
+
+.medium-img{
+    max-width: 50%;  // La imagen será la mitad del ancho del contenedor
+    height: auto;  // Mantiene la proporción
+    display: block;  // Evita espacios extra en línea
+    margin: 0 auto;  // Centra la imagen
 }
 
 // Tamaño del logo
