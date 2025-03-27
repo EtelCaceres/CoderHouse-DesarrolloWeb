@@ -18,7 +18,7 @@ h1 {
 @mixin body-background($color) {
     background-color: $color;
 }
-  
+
   // se  Usa el mixin
 .body-background-color {
     @include body-background($primary-bg);
@@ -37,7 +37,7 @@ img {
 }
 
 .medium-img{
-    max-width: 50%;  // La imagen será la mitad del ancho del contenedor
+    max-width: 65%;  // La imagen será la mitad del ancho del contenedor
     height: auto;  // Mantiene la proporción
     display: block;  // Evita espacios extra en línea
     margin: 0 auto;  // Centra la imagen
@@ -52,7 +52,7 @@ img {
 // Estilos de la barra de navegación con anidamiento
 .navbar {
     background-color: $secondary-bg;
-  
+
     
     .container-fluid {
         background-color: $secondary-bg;
